@@ -75,7 +75,7 @@ header {
   display: flex;
   justify-content: center;
   font-family: "Pangolin", cursive;
-  font-size: 75px;
+  font-size: 50px;
   color: #fff;
 }
 
@@ -85,6 +85,7 @@ header nav {
 }
 header nav ul {
   display: flex;
+  flex-wrap: wrap;
 }
 
 header nav ul li {
@@ -146,6 +147,7 @@ footer p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
   .group {
     display: flex;
@@ -158,5 +160,12 @@ footer p {
   }
   .item-double {
     flex: 2;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    font-family: "Pangolin", cursive;
+    font-size: 75px;
+    color: #fff;
   }
 }
